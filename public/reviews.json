@@ -1,35 +1,41 @@
 [
     {"id": "623853b2614ad5aba311fdd1",
         "name":"Kristen Luchene" ,
-        "review": "I love almost everything about this laptop except the camera quality. It'd be nice if there's a way to know to enhance camera quality on this device. Other than that, it's a great product"
+        "review": "I love almost everything about this laptop except the camera quality. It'd be nice if there's a way to know to enhance camera quality on this device. Other than that, it's a great product",
+        "rating":"4"
         
 },
     {"id": "623853b2614ad5aba311fde2",
-        "name": "Chelsea Johnston",
-        "review": "I just got it. Nice to hear your positive review!"
+        "name": "Michael Johnston",
+        "review": "I just got it. This is just awesome!",
+        "rating":"5"
         
         
 },
     {"id": "623853b2614ad5aba311fdf3",  
        
         "name": "Jhon Michael",
-        "review" :"I don't know why companies like Samsung put AMAZINGLY MIND BLOWING cameras in their phones and still put garbage in their laptops! It does. not. make. sense!!!Everything else looks great!"
+        "review" :"I don't know why companies like Samsung put AMAZINGLY MIND BLOWING cameras in their phones and still put garbage in their laptops! It does. not. make. sense!!!Everything else looks great!",
+        "rating":"2"
         
 },
     {"id": "623853b2614ad5aba311fdd4",
         "name": "Anon e-mouse",
-        "review": "The battery reducing to zero over night is a real concern. I hope they can do something to fix this."
+        "review": "The battery reducing to zero over night is a real concern. I hope they can do something to fix this.",
+        "rating":"3"
         
         
 },
     {"id": "623853b2614ad5aba311fdse5",
         "name": "Matthias Heil",
-        "review": "I have switched from a Surface Pro 7 i7 16GB 1TB, and find this incredible piece of Samsung hardware to be a real killer in almost any aspect. Battery!!! Display!!! S Pen!!! Thanks for the honest review. I have quite some video editing to do (Filmora Pro), and have far less problems then on my former device."
+        "review": "I have switched from a Surface Pro 7 i7 16GB 1TB, and find this incredible piece of Samsung hardware to be a real killer in almost any aspect. Battery!!! Display!!! S Pen!!! I have quite some video editing to do (Filmora Pro), and have far less problems then on my former device.",
+        "rating":"3.5"
         
 },
     {"id": "623853b2614ad5aba311fde6",
         "name": "Dave A Driffield",
-        "review": "I really like the way it folds in the middle. Without doing this it would be too big and cumbersome and difficult to get into a bag. Genius whoever thought of including a hinge right in the centre of it."
+        "review": "I really like the way it folds in the middle. Without doing this it would be too big and cumbersome and difficult to get into a bag. Genius whoever thought of including a hinge right in the centre of it.",
+        "rating":"4"
        
         
 }
