@@ -1,14 +1,19 @@
 import React from 'react';
-import { AiFillStar } from 'react-icons/ai';
-
+import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
+import Rating from 'react-rating';
 const CustomerReview = ({laptop}) => {
     const{name,review, rating} = laptop
     return (
-        <div className='border'>
-            <h3 className='text-3xl font-medium'>{name}</h3>
+        <div className='border-0 w-60 relative'>
+            <h3 className='text-3xl font-medium py-3'>{name}</h3>
             <p>{review}</p>
             <br />
-            <p className='flex'><AiFillStar></AiFillStar><AiFillStar></AiFillStar><AiFillStar></AiFillStar>{rating}</p>
+            <p className='text-yellow-500 absolute bottom-0 align-middle'><Rating
+  placeholderRating={rating}
+  emptySymbol={<AiOutlineStar></AiOutlineStar>}
+  placeholderSymbol={<AiFillStar></AiFillStar>}
+  fullSymbol={<AiFillStar></AiFillStar>}
+/></p>
         </div>
     );
 };

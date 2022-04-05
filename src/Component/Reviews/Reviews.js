@@ -6,7 +6,7 @@ const Reviews = () => {
     return (
         <div>
            <h1 className='text-6xl'>What our customer say</h1>
-           <div className='md:grid md:grid-cols-3 '>
+           <div className='md:grid md:grid-cols-3 gap-10 mx-36'>
                {
                    laptops.map(laptop=> <ReviewDetails key={laptop.id} laptop={laptop}></ReviewDetails>)
                }

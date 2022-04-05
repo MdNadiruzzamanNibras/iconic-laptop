@@ -1,5 +1,5 @@
 import React from 'react';
-import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const DashBoard = () => {
     const data =[
@@ -53,6 +53,7 @@ const DashBoard = () => {
 
     </LineChart>
             </div>
+
             <div>
                 <h4 className='text-blue-500 font-bold text-2xl'>Investment vs Revenue</h4>
             <AreaChart
@@ -75,6 +76,7 @@ const DashBoard = () => {
          
         </AreaChart>
             </div>
+
             <div>
             <h4 className='text-blue-500 font-bold text-2xl'>Investment vs Revenue</h4>
             <BarChart
@@ -97,11 +99,13 @@ const DashBoard = () => {
           <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
         </BarChart>
             </div>
+
             <div>
-           
+            <h4 className='text-blue-500 font-bold text-2xl'>Investment vs Revenue</h4>
         <PieChart width={800} height={600}>
           <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
           <Pie data={data} dataKey="revenue" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
+          <Tooltip/>
         </PieChart>
     
             </div>
